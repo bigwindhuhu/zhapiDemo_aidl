@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">ZhAPI 测试</string>
+    <string name="status_connected">已连接 com.zhkj.zhapiserver</string>
+    <string name="status_disconnected">未连接服务</string>
+    <string name="action_connect">连接</string>
+    <string name="action_disconnect">断开</string>
+    <string name="action_clear_log">清空日志</string>
+    <string name="log_hint">调用结果将显示在这里…</string>
+    <string name="log_connected">服务绑定成功</string>
+    <string name="log_disconnected">服务已断开</string>
+    <string name="toast_not_connected">请先连接 ZhAPI 服务</string>
+
+    <string name="category_system_info">系统信息</string>
+    <string name="category_power_display">电源 / 显示</string>
+    <string name="category_storage">应用 / 存储</string>
+    <string name="category_network">以太网 / WiFi</string>
+    <string name="category_misc">串口 / ADB / NTP / OTA</string>
+    <string name="category_usb0">USB0 Type-A</string>
+    <string name="category_gpio">板级 GPIO</string>
+    <string name="category_pwm">板级 PWM</string>
+
+    <string name="title_reboot">确认重启</string>
+    <string name="msg_reboot">确定要重启设备吗？</string>
+    <string name="title_shutdown">确认关机</string>
+    <string name="msg_shutdown">确定要关闭设备吗？</string>
+    <string name="title_ota">确认 OTA 升级</string>
+    <string name="msg_ota">确定要使用 %1$s 进行系统升级吗？</string>
+
+    <string name="toggle_on">开 (1)</string>
+    <string name="toggle_off">关 (0)</string>
+    <string name="dialog_confirm">确定</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="network_type_hint">网络类型 (1=WiFi, 9=以太网)</string>
+    <string name="field_apk_path">APK 路径</string>
+    <string name="field_open_after_install">安装后打开</string>
+    <string name="field_enable">启用</string>
+    <string name="field_gpio_node">节点名 (gpio1 / usb3pwren / fanpower …)</string>
+    <string name="field_gpio_level">输出电平</string>
+    <string name="field_pwm_name">PWM 名 (空=pwm0)</string>
+    <string name="field_pwm_duty">占空比 ns</string>
+    <string name="field_pwm_period">周期 ns</string>
+    <string name="field_usb0_mode">模式 (host / otg)</string>
+</resources>
